@@ -1,23 +1,23 @@
 # ---
 # variables:
 #   station_id:
-#     ColumnName: "cimis_station_id"
-#     Category: "source"
-#     Description: "CIMIS station ID number"
-#     Format: "integer"
-#     Notes: "source: CIMIS"
+#     ColumnName: cimis_station_id
+#     Category: source
+#     Description: CIMIS station ID number
+#     Format: integer
+#     Notes: source: CIMIS
 #   station_name:
-#     ColumnName: "cimis_station_name"
-#     Category: "new"
-#     Description: "CIMIS station name used by researchers"
-#     Format: "numeric"
-#     Notes: "source: CIMIS"
+#     ColumnName: cimis_station_name
+#     Category: new
+#     Description: CIMIS station name used by researchers
+#     Format: numeric
+#     Notes: source: CIMIS
 #   elevation:
-#     ColumnName: "cimis_elevation_ft"
-#     Category: "new"
-#     Description: "elevation of the CIMIS station"
-#     Format: "numeric"
-#     Notes: "source: CIMIS"
+#     ColumnName: cimis_elevation_ft
+#     Category: new
+#     Description: elevation of the CIMIS station
+#     Format: numeric
+#     Notes: source: CIMIS
 # ---
 
 #GOAL: This is a template script to write file-level metadata for data that is a part of a larger UC Davis DataLab project. It is based on the USGS' "Metadata in plain language" website: https://geology.usgs.gov/tools/metadata/tools/doc/ctc/ This template purposefully leaves out project-level metadata that is covered in the project's scoping documument or other documentation.  It is recommended that you use this code at the end of a cleaning script to facilitate writing the metadata and to keep the cleaning script and metadata in one place.
